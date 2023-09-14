@@ -13,10 +13,11 @@ class Solution {
                 left++;
             }
         }
-        if (min != Integer.MAX_VALUE){
-            return min;
-        }else{
-            return 0;
-        }
+        // if (min != Integer.MAX_VALUE){
+        //     return min;
+        // }else{
+        //     return 0;
+        // }
+        return min == Integer.MAX_VALUE ? 0 : min;
     }
 }
